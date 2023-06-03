@@ -32,7 +32,7 @@ class _PlayersPageState extends State<PlayersPage> {
               style: TextStyle(fontSize: 16),
             ),
           ),
-          SizedBox(height: 16),
+          const SizedBox(height: 16),
           InkWell(
             onTap: () {
               Navigator.pushNamed(context, '/players_description');

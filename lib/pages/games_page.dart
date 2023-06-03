@@ -50,17 +50,17 @@ class GamesPage extends StatelessWidget {
                       print('Container tapped! Game ID: ${snapshot.data![index].id}');
                     },
                     child: Container(
-                      padding: const EdgeInsets.all(10),
+                      padding: const EdgeInsets.all(20),
                       margin: const EdgeInsets.all(5),
                       decoration: BoxDecoration(
                         color: Colors.grey[900],
-                        borderRadius: BorderRadius.circular(8),
+                        borderRadius: BorderRadius.circular(4),
                       ),
                       child: Text(
                         snapshot.data![index].homeTeam.name,
                         style: const TextStyle(
                           color: Colors.white,
-                          fontSize: 16,
+                          fontSize: 14,
                         ),
                       ),
                     ),
