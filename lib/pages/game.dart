@@ -1,3 +1,9 @@
+//Mirroring Data _nakuzileat kuzifanya kuwa object
+
+// it is like maping for for API to MyApp
+// DTO
+//Kazi yake ni mapping nakupeleka peleka kwenye json
+
 class Game {
   final int id;
   final String date;
@@ -69,5 +75,32 @@ class Team {
         division: json['division'],
         fullName: json['full_name'],
         name: json['name']);
+  }
+}
+
+// I dont Understand them
+
+//
+class Player {
+  final int? id;
+  final String? first_name;
+  final String? last_name;
+  final String? position;
+  final Team? team;
+
+  Player(
+      {required this.id,
+      required this.first_name,
+      required this.last_name,
+      required this.position,
+      required this.team});
+
+  factory Player.fromJson(Map<String, dynamic> json) {
+    return Player(
+        id: json['id'],
+        first_name: json['first_name'],
+        last_name: json['last_name'],
+        position: json['position'],
+        team: Team.teamJson(json['team']));
   }
 }

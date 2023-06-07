@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+
 import 'pages/games_page.dart';
+// import 'pages/players_page.dart';
 import 'pages/statistics_page.dart';
 import 'pages/teams_page.dart';
-import 'pages/players_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -17,7 +18,7 @@ class _HomePageState extends State<HomePage> {
     const GamesPage(),
     const StatisticsPage(),
     const TeamsPage(),
-    const PlayersPage(),
+    // const PlayersPage(),
   ];
 
   @override
@@ -39,8 +40,9 @@ class _HomePageState extends State<HomePage> {
               padding: const EdgeInsets.all(8.0),
               child: const Text(
                 'Baller\'s',
-                style: TextStyle(letterSpacing: 1,
-                    fontWeight: FontWeight.bold,
+                style: TextStyle(
+                  letterSpacing: 1,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
             )

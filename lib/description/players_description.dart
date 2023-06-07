@@ -4,7 +4,10 @@ class PlayersDescriptionPage extends StatefulWidget {
   const PlayersDescriptionPage({Key? key}) : super(key: key);
 
   @override
-  State<PlayersDescriptionPage> createState() => _PlayersDescriptionPageState();
+  // State<PlayersDescriptionPage> createState() => _PlayersDescriptionPageState();
+  _PlayersDescriptionPageState createState() {
+    return _PlayersDescriptionPageState();
+  }
 }
 
 class _PlayersDescriptionPageState extends State<PlayersDescriptionPage> {
@@ -30,6 +33,6 @@ class _PlayersDescriptionPageState extends State<PlayersDescriptionPage> {
           ],
         ),
       ),
-    );;
+    );
   }
 }

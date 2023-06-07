@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class TeamsDescriptionPage extends StatefulWidget {
   const TeamsDescriptionPage({Key? key}) : super(key: key);
 
@@ -26,14 +25,14 @@ class _TeamsDescriptionPageState extends State<TeamsDescriptionPage> {
             SizedBox(height: 16),
             Text(
               'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
-                  'Vestibulum dapibus eleifend felis, non interdum quam tempus quis. '
-                  'Fusce maximus tellus id leo luctus ullamcorper. '
-                  'Quisque id orci vel felis placerat efficitur.',
+              'Vestibulum dapibus eleifend felis, non interdum quam tempus quis. '
+              'Fusce maximus tellus id leo luctus ullamcorper. '
+              'Quisque id orci vel felis placerat efficitur.',
               textAlign: TextAlign.center,
             ),
           ],
         ),
       ),
-    );;
+    );
   }
 }
