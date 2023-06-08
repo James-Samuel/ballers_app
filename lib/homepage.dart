@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'pages/games_page.dart';
-// import 'pages/players_page.dart';
 import 'pages/statistics_page.dart';
 import 'pages/teams_page.dart';
 

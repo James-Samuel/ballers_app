@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class TeamsPage extends StatefulWidget {
   const TeamsPage({Key? key}) : super(key: key);
 
